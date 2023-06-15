@@ -6,7 +6,11 @@ window.addEventListener('DOMContentLoaded', function() {
         'images/VRChat_2023-05-27_02-27-31.591_1920x1080.png',
         'images/VRChat_2023-06-02_05-32-49.894_1920x1080.png',
         'images/VRChat_2023-06-03_00-20-16.117_1920x1080.png',
-        'images/VRChat_2023-06-03_00-22-20.975_1920x1080.png'
+        'images/VRChat_2023-06-03_00-22-20.975_1920x1080.png',
+        'images/nerdy1',
+        'images/nerdy2',
+        'images/nerdy3',
+        'images/nerdy4',
     ];
 
     function createSlide(imageUrl) {

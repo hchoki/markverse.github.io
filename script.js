@@ -1,13 +1,20 @@
 window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
+        'images/titanic4.png',
         'images/image1.png',
+        'images/mouthplay2.png',
         'images/image.png',
+        'images/titanic3.png',
         'images/VRChat_2023-05-27_02-27-31.591_1920x1080.png',
+        'images/mouthplay3.png',
         'images/nerdy1.png',
         'images/VRChat_2023-06-02_05-32-49.894_1920x1080.png',
+        'images/titanic2.png',
         'images/nerdy2.png',
-        'images/VRChat_2023-06-03_00-20-16.117_1920x1080.png',
+        'images/mouthplay1.png',
+        'images/VRChat_2023-06-03_00-20-16.117_1920x1080.png',  
+        'images/titanic1.png',
         'images/nerdy3.png',
         'images/VRChat_2023-06-03_00-22-20.975_1920x1080.png',
         'images/nerdy4.png',

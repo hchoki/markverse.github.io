@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
         'images/titanic4.png',
+        'images/Donkeysaur.png',
         'images/image1.png',
         'images/mouthplay2.png',
         'images/image.png',

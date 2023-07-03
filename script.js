@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
     var imageUrls = [
         'images/paris1.png',
         'images/titanic4.png',
+        'images/CurtainRod.png',
         'images/Donkeysaur.png',
         'images/paris3.png',
         'images/Mark-Zuckerberg-Spooks-the-Internet-With-Too-Much-Sunscreen-on-His-Face-in-Hawaii-01.jpeg',

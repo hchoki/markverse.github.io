@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
+        'images/ritualneo.jpg',
         'images/paris1.png',
         'images/titanic4.png',
         'images/CurtainRod.png',

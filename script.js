@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
     var imageUrls = [
         'images/ritualneo.jpg',
         'images/paris1.png',
+        'images/heliflelfon.png',
         'images/titanic4.png',
         'images/CurtainRod.png',
         'images/Donkeysaur.png',

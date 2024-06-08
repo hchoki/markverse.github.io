@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
+        'images/VRChat_2024-06-07_22-11-09.png',
         'images/hecka.png',
         'images/ritualneo.jpg',
         'images/paris1.png',
@@ -27,7 +28,7 @@ window.addEventListener('DOMContentLoaded', function() {
         'images/titanic1.png',
         'images/nerdy3.png',
         'images/VRChat_2023-06-03_00-22-20.975_1920x1080.png',
-        'images/nerdy4.png',
+        'images/nerdy4.png'
     ];
 
     function createSlide(imageUrl) {

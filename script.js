@@ -2,6 +2,9 @@ window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
         'images/VRChat_2024-06-07_22-11-09.png',
+        'images/VRChat_2024-06-08_20-57-33.018_2560x1440.png',
+        'images/VRChat_2024-06-07_01-37-34.697_1920x1080.png',
+        'images/VRChat_2024-06-08_21-00-08.892_2560x1440.png',
         'images/hecka.png',
         'images/ritualneo.jpg',
         'images/paris1.png',

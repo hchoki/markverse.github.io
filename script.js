@@ -1,11 +1,14 @@
 window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
+        'images/umbra4.png',
         'images/umbra1.png',
         'images/VRChat_2024-06-07_22-11-09.png',
+        'images/umbra5.png',
         'images/umbra2.png',
         'images/VRChat_2024-06-08_20-57-33.018_2560x1440.png',
         'images/umbra3.png',
+        'images/umbra6.png',
         'images/VRChat_2024-06-07_01-37-34.697_1920x1080.png',
         'images/VRChat_2024-06-08_21-00-08.892_2560x1440.png',
         'images/hecka.png',

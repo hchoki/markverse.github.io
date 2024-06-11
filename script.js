@@ -1,9 +1,14 @@
 window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
     var imageUrls = [
-        'images/umbra4.png',
-        'images/umbra1.png',
         'images/VRChat_2024-06-07_22-11-09.png',
+        'images/avali1.png',
+        'images/umbra4.png',
+        'images/Mark-Zuckerberg-Spooks-the-Internet-With-Too-Much-Sunscreen-on-His-Face-in-Hawaii-01.jpeg',
+        'images/umbra1.png',
+        'images/avali2.png',
+        'images/VRChat_2024-06-07_22-11-09.png',
+        'images/avali3.png',
         'images/umbra5.png',
         'images/umbra2.png',
         'images/VRChat_2024-06-08_20-57-33.018_2560x1440.png',
@@ -11,6 +16,7 @@ window.addEventListener('DOMContentLoaded', function() {
         'images/umbra6.png',
         'images/VRChat_2024-06-07_01-37-34.697_1920x1080.png',
         'images/VRChat_2024-06-08_21-00-08.892_2560x1440.png',
+        'images/avali4.png',
         'images/hecka.png',
         'images/ritualneo.jpg',
         'images/paris1.png',
@@ -20,6 +26,7 @@ window.addEventListener('DOMContentLoaded', function() {
         'images/Donkeysaur.png',
         'images/paris3.png',
         'images/Mark-Zuckerberg-Spooks-the-Internet-With-Too-Much-Sunscreen-on-His-Face-in-Hawaii-01.jpeg',
+        'images/avali5.png',
         'images/image1.png',
         'images/mouthplay2.png',
         'images/image.png',

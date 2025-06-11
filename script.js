@@ -1,6 +1,29 @@
 window.addEventListener('DOMContentLoaded', function() {
     var slideshowContainer = document.getElementById('slideshow-container');
-    var imageUrls = [
+
+    var priorityImages = [
+        'images/somna-1.png',
+        'images/somna-2.png',
+        'images/somna-3.png',
+        'images/somna-4.png',
+        'images/somna-5.png',
+        'images/somna-6.png',
+        'images/somna-7.png',
+        'images/somna-8.png',
+        'images/somna-9.png',
+        'images/somna-10.png',
+        'images/somna-11.png',
+        'images/somna-12.png',
+        'images/somna-13.png',
+        'images/somna-14.png',
+        'images/somna-15.png',
+        'images/somna-16.png',
+        'images/somna-17.png',
+        'images/somna-18.png',
+        'images/somna-19.png',
+    ];
+
+    var extraImages = [
         'images/VRChat_2024-06-07_22-11-09.png',
         'images/avali1.png',
         'images/umbra4.png',
@@ -44,8 +67,22 @@ window.addEventListener('DOMContentLoaded', function() {
         'images/titanic1.png',
         'images/nerdy3.png',
         'images/VRChat_2023-06-03_00-22-20.975_1920x1080.png',
-        'images/nerdy4.png'
+        'images/nerdy4.png',
     ];
+
+    // Fisher-Yates shuffle
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    shuffle(priorityImages);
+    shuffle(extraImages);
+
+    // Combine arrays: priority first, then extra
+    var imageUrls = priorityImages.concat(extraImages);
 
     function createSlide(imageUrl) {
         var slide = document.createElement('div');
